@@ -1,12 +1,4 @@
 /*
-
-ART FACTORY
-
-https://templatemo.com/tm-537-art-factory
-
-*/
-
-/* 
 ---------------------------------------------
 Table of contents
 ---------------------------------------------
@@ -287,6 +279,12 @@ button.main-button:hover {
   text-align: center;
 }
 
+.bottom-section h2 {
+  margin-bottom: 20px;
+}
+.bottom-section p {
+  margin-bottom: 10px;
+}
 /* 
 ---------------------------------------------
 header
@@ -341,7 +339,7 @@ header
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #fff;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -717,7 +715,6 @@ welcome
 */
 #welcome {
   overflow: hidden;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -981,8 +978,8 @@ services
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   line-height: 100px;
   margin: auto;
   position: relative;
@@ -995,7 +992,7 @@ services
 }
 
 .service-item .icon img {
-  max-width: 50px;
+  max-width: 150px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1094,7 +1091,7 @@ accordions
 ---------------------------------------------
 */
 
-#frequently-question {
+#frequently-question, .bottom-section {
   padding: 120px 0px;
 }
 
@@ -1309,6 +1306,12 @@ contact
   color: #fff;
 }
 
+.legal-content {
+  margin-top: 150px;
+}
+.legal-bg {
+  background-image: url(../images/banner-bg.png);
+}
 /* 
 ---------------------------------------------
 footer
@@ -1316,7 +1319,8 @@ footer
 */
 footer {
   background-color: #fff;
-  padding: 60px 0px;
+  padding: 30px 0px;
+  text-align: center;
 }
 
 footer .social {

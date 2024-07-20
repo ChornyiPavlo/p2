@@ -833,6 +833,10 @@ welcome
     margin-bottom: 100px;
   }
 
+  .header-logo {
+    width: 50px;
+  }
+
   .welcome-area .header-text {
     top: 55% !important;
     transform: perspective(1px) translateY(-50%) !important;
@@ -881,7 +885,11 @@ about
 
 @media (max-width: 765px) {
   #about {
-    padding: 20px 0px 120px 0px;
+    padding: 20px 0px 0px 0px;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -893,7 +901,7 @@ about
   margin-bottom: 40px;
 }
 
-#about2, #about3, #about4 {
+#about2 {
   padding: 120px 0px;
 }
 
@@ -1134,7 +1142,7 @@ accordions
 */
 
 #frequently-question, .bottom-section {
-  padding: 120px 0px;
+  padding: 0 0 120px 0px;
 }
 
 #frequently-question .section-heading p {

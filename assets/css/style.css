@@ -627,6 +627,12 @@ header
 @media (max-width: 991px) {
   .header-area .main-nav .logo {
     font-size: 12px;
+    width: 85%;
+    line-height: normal;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 20px;
   }
 
   .header-area {
@@ -901,7 +907,7 @@ about
   margin-bottom: 40px;
 }
 
-#about2 {
+#about2, #about3, #about4 {
   padding: 120px 0px;
 }
 
@@ -1142,7 +1148,7 @@ accordions
 */
 
 #frequently-question, .bottom-section {
-  padding: 0 0 120px 0px;
+  padding: 120px 0px;
 }
 
 #frequently-question .section-heading p {
@@ -1183,6 +1189,12 @@ accordions
 @media (max-width: 765px) {
   #frequently-question .left-text {
     margin-bottom: 60px;
+  }
+  #frequently-question, .bottom-section {
+    padding: 0 0 120px 0;
+  }
+  #about3, #about4 {
+    padding: 0;
   }
 }
 

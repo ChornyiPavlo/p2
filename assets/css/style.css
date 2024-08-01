@@ -622,6 +622,9 @@ header
   .header-area .main-nav:before {
     display: none;
   }
+  .header-area .main-nav .logo {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -891,7 +894,7 @@ about
 
 @media (max-width: 765px) {
   #about {
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0px 40px 0px;
   }
   .center {
     display: flex;
@@ -908,7 +911,7 @@ about
 }
 
 #about2, #about3, #about4 {
-  padding: 120px 0px;
+  padding: 60px 0px;
 }
 
 #about2 .right-image, #about3 .right-image, #about4 .right-image {
@@ -1148,7 +1151,7 @@ accordions
 */
 
 #frequently-question, .bottom-section {
-  padding: 120px 0px;
+  padding: 60px 0px;
 }
 
 #frequently-question .section-heading p {
@@ -1355,6 +1358,12 @@ contact
   .contact-form {
     padding: 60px;
     margin-top: -7px;
+  }
+}
+
+@media (max-height: 700px) {
+  .welcome-area .header-text img {
+    width: 60%;
   }
 }
 

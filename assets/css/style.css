@@ -611,6 +611,7 @@ header
 
 .header-logo {
   width: 60px;
+  margin-right: 10px;
 }
 
 @media (max-width: 1200px) {
